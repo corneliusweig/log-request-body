@@ -16,3 +16,8 @@ docker run --rm -ti -p 8080:80 corneliusweig/log-request-body
 # test with
 curl -XPOST -d'Hello World!' localhost:8080
 ```
+
+Deploy to CloudRun
+--
+
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
